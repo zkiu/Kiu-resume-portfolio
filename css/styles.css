@@ -192,4 +192,8 @@ footer {
   .contact-list {
   display: flex;
   }
+  .project-item {
+    display: flex;
+    align-items: center;
+  }
 }
