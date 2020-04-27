@@ -26,9 +26,6 @@ body {
   margin: 2px auto;
   padding: 60px 0;
 }
-img {
-  width: 400px;
-}
 
 a:link {
   color: greenyellow;
@@ -102,8 +99,8 @@ header h2{
 }
 .project-item img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 20px auto;
+  width: 300px;
 }
 .project-item h3 {
   margin-top: 0;
@@ -146,7 +143,6 @@ header h2{
 .icon i {
   font-size: 3em;
 }
-
 
 
 
@@ -195,10 +191,6 @@ footer {
 /* Responsive Design
 ------------------------------------*/
 @media screen and (min-width:750px){
-  .project-item img {
-    float: left;
-    margin-right: 20px;
-  }
   .job-item {
   display: grid;
   }
@@ -211,5 +203,9 @@ footer {
   .project-item {
     display: flex;
     align-items: center;
+  }
+  .project-item img {
+    margin-right: 20px;
+    flex-shrink: .2;
   }
 }
