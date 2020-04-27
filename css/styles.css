@@ -30,9 +30,21 @@ img {
   width: 400px;
 }
 
+a:link {
+  color: greenyellow;
+}
+a:visited {
+  color: darkgreen;
+}
 a:hover {
   text-decoration: none;
+  color: green;
 }
+a:active {
+  color: green;
+}
+
+
 h1 {
   font-size: 3em;
   text-decoration: underline;
@@ -123,6 +135,11 @@ header h2{
   text-decoration: none;
   
 }
+
+.icon:visited {
+  color: #2F3061;
+}
+
 .icon:hover {
   color: rgba(47, 48, 97, 80%);
 }
@@ -173,7 +190,6 @@ footer {
 .contact-list a {
   padding: 15px;
   display: inline-block;
-  color: greenyellow;
 }
 
 /* Responsive Design
