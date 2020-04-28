@@ -53,9 +53,11 @@ h1 {
   text-decoration: underline;
   line-height: 1;
   background-clip: text;
+  background: -webkit-gradient(linear, left top, right top, from(rgb(255, 255, 255)), to(#4fd6ff));
   background: linear-gradient(to right, rgb(255, 255, 255) 0%, #4fd6ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  width: -webkit-fit-content;
   width: fit-content;
   width: -moz-fit-content;
   margin: auto;
@@ -112,8 +114,12 @@ header h2{
 
 
 .btn-container {
+  display: -webkit-inline-box;
   display: inline-flex;
+  -webkit-box-align: center;
   align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 .projects .btn {
@@ -158,6 +164,8 @@ header h2{
 }
 .job-item {
   grid-template-columns: 1fr 2fr;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
   column-gap: 20px;
 }
 
@@ -189,6 +197,7 @@ footer {
 .contact-list {
   list-style-type: none;
   padding: 0;
+  -webkit-box-pack: center;
   justify-content: center;
 }
 .contact-list a {
@@ -206,10 +215,13 @@ footer {
   /* background-position: top right; */
   }
   .contact-list {
+  display: -webkit-box;
   display: flex;
   }
   .project-item {
+    display: -webkit-box;
     display: flex;
+    -webkit-box-align: center;
     align-items: center;
   }
   .project-item img {
