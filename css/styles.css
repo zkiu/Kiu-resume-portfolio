@@ -227,5 +227,6 @@ footer {
   .project-item img {
     margin-right: 20px;
     flex-shrink: .2;
+    min-width: 300px;
   }
 }
