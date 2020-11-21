@@ -211,9 +211,9 @@ footer {
   .job-item {
   display: grid;
   }
-  .education {
-  /* background-position: top right; */
-  }
+  /* .education {
+  background-position: top right;
+  } */
   .contact-list {
   display: -webkit-box;
   display: flex;

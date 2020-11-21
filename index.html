@@ -1,234 +1,350 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kiu, Full Stack Web Developer</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- import font awesome script to use graphics such as github logo -->
+    <script
+      src="https://kit.fontawesome.com/5f6135a920.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kiu, Full Stack Web Developer</title>
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-  <!-- import font awesome script to use graphics such as github logo -->
-  <script src="https://kit.fontawesome.com/5f6135a920.js" crossorigin="anonymous"></script>
-</head>
+  <body>
+    <main>
+      <!-- ***************  ABOUT / PROFILE  **************** -->
+      <header>
+        <div class="content-wrap">
+          <h1>Quoc&nbsp;(<em>Kiu</em>)&nbsp;L.</h1>
+          <h2>Full-Stack Web Developer</h2>
+          <h3>Profile Summary:</h3>
+          <p>
+            Kiu graduated with a Bachelor's in Mechanical Engineering in 2006.
+            Since then, he had a +10-year career as a Project Manager in the
+            energy and construction sector. In 2020, Kiu enacted his goal of
+            becoming a Web Developer. Kiu had the confidence that his training
+            as an engineer and the soft skills he developed during his career
+            will be an asset to a Web Developer.
+          </p>
+          <p>
+            Kiu taught himself to be a Full-Stack Developer. Kiu has a solid
+            foundation in languages such as HTLM, CSS, and JavaScript. He is
+            familiar with using development tools such as Git, and Virtual
+            Studio Code. He cares about positive UX and accessibility. Kiu looks
+            forward to joining a team to put his skills into practice and have a
+            fulfilling career in Web Development.
+          </p>
+        </div>
+      </header>
 
-<body>
-  <main>
-    <!-- ***************  ABOUT / PROFILE  **************** -->
-    <header>
-      <div class="content-wrap">
-        <h1>Quoc&nbsp;(<em>Kiu</em>)&nbsp;L.</h1>
-        <h2>Full-Stack Web Developer</h2>
-        <h3>Profile Summary:</h3>
-        <p>Kiu graduated with a Bachelor's in Mechanical Engineering in 2006. Since then, he had a +10-year career as a Project
-        Manager in the energy and construction sector. In 2020, Kiu enacted his goal of becoming a Web Developer. Kiu had the
-        confidence that his training as an engineer and the soft skills he developed during his career will be an asset to a Web
-        Developer.</p>
-        <p>Kiu taught himself to be a Full-Stack Developer. Kiu has a solid foundation in languages such as HTLM, CSS, and
-        JavaScript. He is familiar with using development tools such as Git, and Virtual Studio Code. He cares about positive UX
-        and accessibility. Kiu looks forward to joining a team to put his skills into practice and have a fulfilling career in
-        Web Development.</p>
-      </div>
-    </header>
+      <!-- ************ PROJECTS / PORTFOLIO  ************** -->
+      <article class="projects">
+        <div class="content-wrap divider">
+          <h2>Featured Projects</h2>
 
-    <!-- ************ PROJECTS / PORTFOLIO  ************** -->
-    <article class="projects">
-      <div class="content-wrap divider">
-        <h2>Featured Projects</h2>
-    
-        <p>Below is a portfolio of selected personal projects to demonstrate my competence and how I can contribute to an employer:</p>
-    
-        <!-- Project 1 -->
-        <section class="project-item">
-          <img src="images/thumbnail-1.jpg" alt="description of image">
-          <div>
-            <h3>Web App: Task Tracker (WORK IN PROGRESS)</h3>
-            <p>
-              This is a web app that tracks tasks. The backend is built using the Node.js modules: Express.js and Socket.ie. The database is managed using Mongoose.js (MongoDB). The authentication is used XXXX.
-            </p>
-            <p>
-              The front-end is styled using Bootstrap 4. The UI design is meant to be simple, and unconstructive.
-            </p>
-            <p>
-              The project webpage and the source code are available here:
-            </p>
-            <div class="btn-container">
-              <a class="btn" href="#" target="_blank">View
-                project</a>
-              <a class="icon" href="#" target="_blank">
-                <i class="fab fa-github-alt"></i>
-              </a>
+          <p>
+            Below is a portfolio of selected personal projects to demonstrate my
+            competence and how I can contribute to an employer:
+          </p>
+
+          <!-- Project 1 -->
+          <section class="project-item">
+            <img src="images/thumbnail-1.jpg" alt="description of image" />
+            <div>
+              <h3>Web App: Task Tracker (WORK IN PROGRESS)</h3>
+              <p>
+                This is a web app that tracks tasks. This tracker is used to
+                monitor more complex tasks than to-do-lists, but less complex
+                than longer term 'project' like tasks. It will demonstrate Kiu's
+                knowledge of the full web development stack, from the font-end
+                to the back-end. The project uses React for the front-end, and
+                Node.js at the back-end. Firebase services (Authentication,
+                Firestore, Function, Hosting) will provide server services to
+                this app.
+              </p>
+              <p>The front-end is styled using Bootstrap 4.</p>
+              <p>The project webpage and the source code are available here:</p>
+              <div class="btn-container">
+                <a class="btn" href="#" target="_blank">View project</a>
+                <a
+                  class="icon"
+                  href="https://github.com/zkiu/Task-Tracker-Firebase"
+                  target="_blank"
+                >
+                  <i class="fab fa-github-alt"></i>
+                </a>
+              </div>
             </div>
-          </div>
-        </section>
-    
-        <!-- Project 2 -->
-        <section class="project-item">
-          <img src="images/proj2_Chat_App.PNG" alt="Image of the Chat client App">
-          <div class="project-text">
-            <h3>Web App: Chat Client</h3>
-            <p>
-              This is a simple chat app that utilizes the following Node.js modules:
-            </p>
+          </section>
+
+          <!-- Project 2 -->
+          <section class="project-item">
+            <img
+              src="images/proj2_Chat_App.PNG"
+              alt="Image of the Chat client App"
+            />
+            <div class="project-text">
+              <h3>Web App: Chat Client</h3>
+              <p>
+                This is a simple chat app that utilizes the following Node.js
+                modules:
+              </p>
               <ul>
                 <li>Express.js as the web application framework</li>
-                <li>Socket.io to establish bi-directional communication channel between a client and a server</li>
+                <li>
+                  Socket.io to establish bi-directional communication channel
+                  between a client and a server
+                </li>
                 <li>Mongoose to work with NoSQL via MongoBD</li>
               </ul>
-            <p>
-              The entered form data (name and message) are save on the MongoDB server. Currently, user login is not implemented on this project, but this will be implemented on the main project of this portfolio.
-            </p>
-            <p>
-              This project is hosted on 
-              <a href="http://Heroku.com" target="_blank">Heroku.com</a>
-              <br>
-              The project webpage and the source code are available here:
-            </p>
-            
-            <div class="btn-container">
-              <a class="btn" href="https://pure-springs-58577.herokuapp.com/" target="_blank">View project</a>
-              <a class="icon" href="https://github.com/zkiu/appChatClient" target="_blank">
-                <i class="fab fa-github-alt"></i>
-              </a>
+              <p>
+                The entered form data (name and message) are save on the MongoDB
+                server. Currently, user login is not implemented on this
+                project, but this will be implemented on the main project of
+                this portfolio.
+              </p>
+              <p>
+                This project is hosted on
+                <a href="http://Heroku.com" target="_blank">Heroku.com</a>
+                <br />
+                The project webpage and the source code are available here:
+              </p>
+
+              <div class="btn-container">
+                <a
+                  class="btn"
+                  href="https://pure-springs-58577.herokuapp.com/"
+                  target="_blank"
+                  >View project</a
+                >
+                <a
+                  class="icon"
+                  href="https://github.com/zkiu/appChatClient"
+                  target="_blank"
+                >
+                  <i class="fab fa-github-alt"></i>
+                </a>
+              </div>
             </div>
-          </div>
-        </section>
-        <!-- Project 2 END -->
+          </section>
+          <!-- Project 2 END -->
 
-        <!-- Project 3 -->
-        <section class="project-item">
-          <img src="images/proj3_Bill_flower_shop.PNG" alt="Image of Bill's Flower Shop landing page">
-          <div class="project-text">
-            <h3>Business Webpage: Bill's Flower Shop</h3>
-            <p>
-              A webpage is coded using HAML (HTML abstraction markup language), and SASS (CSS extension language with the
-              Compass framework). The page's layout is done using just CSS with a 12-column layout to create a response webpage
-              Without using a framework, the code is cleaner as compared to the code generated by more popular layout
-              frameworks, such as Bootstrap.This webpage is coded using HAML (HTML abstraction markup language), and SASS (CSS
-              extension language). The page's layout is done using just CSS with a 12-column grid layout and flexboxes to create
-              a response webpage. Without using a framework, such as Bootstrap, to demonstrate Kiu’s solid foundation is
-              semantic HTML and CSS.
-            </p>
-            <p>
-              This website is inspired by Kiu’s friend, who wishes to have a side business selling flower arrangements. Kiu
-              hopes that getting his friend's (Bill's) collaboration on this project will inspire Bill to finally make his dream
-              into reality.
-            </p>
-            <p>
-              The project webpage and the source code are available here:
-            </p>
-            <div class="btn-container">
-              <a class="btn" href="https://zkiu.github.io/portfolio_sass_and_grid/" target="_blank">View project</a>
-              <a class="icon" href="https://github.com/zkiu/portfolio_sass_and_grid" target="_blank">
-                <i class="fab fa-github-alt"></i>
-              </a>
+          <!-- Project 3 -->
+          <section class="project-item">
+            <img
+              src="images/proj3_Bill_flower_shop.PNG"
+              alt="Image of Bill's Flower Shop landing page"
+            />
+            <div class="project-text">
+              <h3>Business Webpage: Bill's Flower Shop</h3>
+              <p>
+                A webpage is coded using HAML (HTML abstraction markup
+                language), and SASS (CSS extension language with the Compass
+                framework). The page's layout is done using just CSS with a
+                12-column layout to create a response webpage Without using a
+                framework, the code is cleaner as compared to the code generated
+                by more popular layout frameworks, such as Bootstrap.This
+                webpage is coded using HAML (HTML abstraction markup language),
+                and SASS (CSS extension language). The page's layout is done
+                using just CSS with a 12-column grid layout and flexboxes to
+                create a response webpage. Without using a framework, such as
+                Bootstrap, to demonstrate Kiu’s solid foundation is semantic
+                HTML and CSS.
+              </p>
+              <p>
+                This website is inspired by Kiu’s friend, who wishes to have a
+                side business selling flower arrangements. Kiu hopes that
+                getting his friend's (Bill's) collaboration on this project will
+                inspire Bill to finally make his dream into reality.
+              </p>
+              <p>The project webpage and the source code are available here:</p>
+              <div class="btn-container">
+                <a
+                  class="btn"
+                  href="https://zkiu.github.io/portfolio_sass_and_grid/"
+                  target="_blank"
+                  >View project</a
+                >
+                <a
+                  class="icon"
+                  href="https://github.com/zkiu/portfolio_sass_and_grid"
+                  target="_blank"
+                >
+                  <i class="fab fa-github-alt"></i>
+                </a>
+              </div>
             </div>
-          </div>
-        </section>
-        <!-- Project 3 END -->
+          </section>
+          <!-- Project 3 END -->
 
-        <!-- End of Job block. -->
-      </div>
-    </article>
+          <!-- End of Job block. -->
+        </div>
+      </article>
 
-    <!-- ****************  WORK EXPERIENCE  ******************** -->
-    <article class="work-experience">
-      <div class="content-wrap item-details divider">
-        <h2>Work Experiences</h2>
-        <p>
-          The work experiences below are based on my time as a Project Manager for construction projects. To see my complete work history with details, please look me up on <a href="https://ca.linkedin.com/in/quoc-kiu-l-5ba14894" target="_blank">LinkedIn</a> or my <a href="https://my.indeed.com/p/quockiul-myin9hu">indeed resume</a>.
-        </p>
+      <!-- ****************  WORK EXPERIENCE  ******************** -->
+      <article class="work-experience">
+        <div class="content-wrap item-details divider">
+          <h2>Work Experiences</h2>
+          <p>
+            The work experiences below are based on my time as a Project Manager
+            for construction projects. To see my complete work history with
+            details, please look me up on
+            <a
+              href="https://ca.linkedin.com/in/quoc-kiu-l-5ba14894"
+              target="_blank"
+              >LinkedIn</a
+            >
+            or my
+            <a href="https://my.indeed.com/p/quockiul-myin9hu">indeed resume</a
+            >.
+          </p>
 
-        <!-- Job 1 -->
-        <section class="job-item">
-          <div class="job-details">
-            <h3>Project Manager</h3>
-            <p>RWDI Inc.</p>
-            <p>Jan 2018 - Jan 2020</p>
-          </div>
-          <div class="job-summary">
+          <!-- Job 1 -->
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Project Manager</h3>
+              <p>RWDI Inc.</p>
+              <p>Jan 2018 - Jan 2020</p>
+            </div>
+            <div class="job-summary">
+              <p>
+                Kiu joined RWDI as Project Manager, with a focus on Building
+                Acoustics. Kiu manages acoustic projects of varying scopes and
+                sizes, from small residential noise concerns, to large design
+                reviews of institutional buildings. Kiu worked on various types
+                of buildings, including educational facilities, community
+                centres, and mixed-use towers. The following are key
+                responsibilities and career highlights that are applicable to
+                Web Development:
+              </p>
+              <ul>
+                <li>
+                  Managed concurrent projects with small budgets (under $10k)
+                  and fast turnaround time.
+                </li>
+                <li>
+                  Directly communicated with clients to understand their
+                  requirements, to explain RWDI’s technical services, and to
+                  simplify report findings.
+                </li>
+                <li>
+                  Managed a team of highly technical engineers to provide on
+                  time and on budget deliverables without compromising quality.
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- Job 2 -->
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Project Engineer</h3>
+              <p>Suncor Inc.</p>
+              <p>Jan 2007 - Mar 2017</p>
+            </div>
+            <div class="job-summary">
+              <p>
+                Kiu started his career at Suncor as an Engineer-in-Training
+                (EIT). At Suncor, he developed as a Project Engineer managing
+                the lifecycle (design, construction, and close-out) of
+                concurrent projects of different complexities, sizes, and
+                constraints. The following are key responsibilities and career
+                highlights that are applicable to Web Development:
+              </p>
+              <ul>
+                <li>
+                  Led meetings for upper management and key stakeholders for
+                  funding requests, risk mitigations, and scope changes.
+                </li>
+                <li>
+                  Managed a multi-disciplinary (mechanical, structural,
+                  electrical, etc.) team of engineers on the owner side to do
+                  quality checks of consultant deliverables.
+                </li>
+              </ul>
+            </div>
+          </section>
+          <!-- End of Job block. -->
+        </div>
+      </article>
+
+      <!-- *************  EDUCATION & CERTIFICATIONS *********** -->
+      <article class="education">
+        <div class="content-wrap item-details">
+          <h2>Education</h2>
+
+          <section>
+            <h3>Self-Taught</h3>
+            <p>Full Stack Wed Developer, 2020-Ongoin</p>
             <p>
-              Kiu joined RWDI as Project Manager, with a focus on Building Acoustics. Kiu manages acoustic projects of varying scopes and sizes, from small residential noise concerns, to large design reviews of institutional buildings. Kiu worked on various types of buildings, including educational facilities, community centres, and mixed-use towers. The following are key responsibilities and career highlights that are applicable to Web Development:
+              Gained a solid foundation in the following languages and tools:
             </p>
             <ul>
-              <li>Managed concurrent projects with small budgets (under $10k) and fast turnaround time.</li>
-              <li>Directly communicated with clients to understand their requirements, to explain RWDI’s technical services, and to simplify report findings.</li>
-              <li>Managed a team of highly technical engineers to provide on time and on budget deliverables without compromising quality.</li>
+              <li>
+                HTML – Compose semantically correct HTML with accessibility
+                focus + can use HAML to reduce HTLM clutter
+              </li>
+              <li>
+                CSS – Harness SASS and Bootstrap to design responsive sites
+              </li>
+              <li>
+                Wordpress – Familiar with Local by Flywheel, build/customize
+                child themes by injecting custom CSS, add functionality,
+                modifying PHP templates
+              </li>
+              <li>JavaScript - Strong Fundamental Understanding</li>
+              <li>
+                Git and GitHub- Experienced using version control while
+                collaborating with a team
+              </li>
+              <li>Visual Studio Code – Power User</li>
+              <li>
+                Linux / Bash Command Line – Expertly use the terminal for git
+                and file operations
+              </li>
+              <li>
+                Browser DevTools – experience debugging using Firefox and Google
+              </li>
+              <li>
+                Gulp.js - Used with pre-processor such as HAML and SASS, along
+                with other productivity tools such as BrowserSync
+              </li>
             </ul>
-          </div>
-        </section>
+          </section>
 
-        <!-- Job 2 -->
-        <section class="job-item">
-          <div class="job-details">
-            <h3>Project Engineer</h3>
-            <p>Suncor Inc.</p>
-            <p>Jan 2007 - Mar 2017</p>
-          </div>
-          <div class="job-summary">
-            <p>
-              Kiu started his career at Suncor as an Engineer-in-Training (EIT). At Suncor, he developed as a Project Engineer managing the lifecycle (design, construction, and close-out) of concurrent projects of different complexities, sizes, and constraints. The following are key responsibilities and career highlights that are applicable to Web Development:
-            </p>
-            <ul>
-              <li>Led meetings for upper management and key stakeholders for funding requests, risk mitigations, and scope changes.</li>
-              <li>Managed a multi-disciplinary (mechanical, structural, electrical, etc.) team of engineers on the owner side to do quality checks of consultant deliverables.</li>
-            </ul>
-          </div>
-          
-        </section>
-      <!-- End of Job block. -->
+          <section>
+            <h3>University of Ottawa - Ottawa, ON</h3>
+            <p>Bachelor of Mechanical Engineering, 2001-2006</p>
+          </section>
+          <!-- End of School block. -->
+        </div>
+      </article>
+    </main>
 
+    <!-- ************  CONTACT INFO / SOCIAL MEDIA  ************ -->
+    <footer>
+      <div class="content-wrap">
+        <h2>Contact Me!</h2>
+
+        <!-- Social media and contact links -->
+        <ul class="contact-list">
+          <li><a href="mailto:zquoc@yahoo.ca">zquoc@yahoo.ca</a></li>
+          <li><a href="https://github.com/zkiu" target="_blank">GitHub</a></li>
+          <li>
+            <a
+              href="https://ca.linkedin.com/in/quoc-kiu-l-5ba14894"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
       </div>
-    </article>
-
-    <!-- *************  EDUCATION & CERTIFICATIONS *********** -->
-    <article class="education">
-      <div class="content-wrap item-details">
-        <h2>Education</h2>
-
-        <section>
-          <h3>Self-Taught</h3>
-          <p>Full Stack Wed Developer, 2020-Ongoin</p>
-          <p>Gained a solid foundation in the following languages and tools:</p>
-          <ul>
-            <li>HTML – Compose semantically correct HTML with accessibility focus + can use HAML to reduce HTLM clutter</li>
-            <li>CSS – Harness SASS and Bootstrap to design responsive sites</li>
-            <li>Wordpress – Familiar with Local by Flywheel, build/customize child themes by injecting custom CSS, add functionality, modifying PHP
-            templates</li>
-            <li>JavaScript - Strong Fundamental Understanding</li>
-            <li>Git and GitHub- Experienced using version control while collaborating with a team</li>
-            <li>Visual Studio Code – Power User</li>
-            <li>Linux / Bash Command Line – Expertly use the terminal for git and file operations</li>
-            <li>Browser DevTools – experience debugging using Firefox and Google</li>
-            <li>Gulp.js - Used with pre-processor such as HAML and SASS, along with other productivity tools such as BrowserSync</li>
-          </ul>
-        </section>
-
-
-        <section>
-          <h3>University of Ottawa - Ottawa, ON</h3>
-          <p>Bachelor of Mechanical Engineering, 2001-2006</p>
-        </section>
-        <!-- End of School block. -->
-
-      </div>
-    </article>
-
-  </main>
-
-  <!-- ************  CONTACT INFO / SOCIAL MEDIA  ************ -->
-  <footer>
-    <div class="content-wrap">
-      <h2>Contact Me!</h2>
-
-      <!-- Social media and contact links -->
-      <ul class="contact-list">
-        <li><a href="mailto:zquoc@yahoo.ca">zquoc@yahoo.ca</a></li>
-        <li><a href="https://github.com/zkiu" target="_blank">GitHub</a></li>
-        <li><a href="https://ca.linkedin.com/in/quoc-kiu-l-5ba14894" target="_blank">LinkedIn</a></li>
-      </ul>
-    </div>
-  </footer>
-
-</body>
-
+    </footer>
+  </body>
 </html>
