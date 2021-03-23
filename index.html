@@ -25,20 +25,10 @@
 					<h2>Full-Stack Web Developer</h2>
 					<h3>Profile Summary:</h3>
 					<p>
-						Kiu graduated with a Bachelor's in Mechanical Engineering in 2006.
-						Since then, he had a +10-year career as a Project Manager in the
-						energy and construction sector. In 2020, Kiu enacted his goal of
-						becoming a Web Developer. Kiu had the confidence that his training
-						as an engineer and the soft skills he developed during his career
-						will be an asset to a Web Developer.
-					</p>
-					<p>
-						Kiu taught himself to be a Full-Stack Developer. Kiu has a solid
-						foundation in languages such as HTLM, CSS, and JavaScript. He is
-						familiar with using development tools such as Git, and Virtual
-						Studio Code. He cares about positive UX and accessibility. Kiu looks
-						forward to joining a team to put his skills into practice and have a
-						fulfilling career in Web Development.
+						I am a Web Developer with a previous career in Construction Project
+						Management. My coding fundamentals come from both being self-taught
+						and BrainStation’s Web Development Diploma program. I will be
+						bringing my enthusiasm and grit to the team.
 					</p>
 				</div>
 			</header>
@@ -47,18 +37,70 @@
 			<article class="projects">
 				<div class="content-wrap divider">
 					<h2>Featured Projects</h2>
-
-					<p>
-						Below is a portfolio of selected personal projects to demonstrate my
-						competence and how I can contribute to an employer:
-					</p>
-
 					<!-- Project 1 -->
 					<section class="project-item">
-						<img
-							src="images/task-tracker-snap.PNG"
-							alt="description of image"
-						/>
+						<a href="https://q-story.netlify.app/">
+							<img src="images/qstory.png" alt="Q-Story screenshot" />
+						</a>
+						<div>
+							<h3>Web App: Q-Story</h3>
+							<p>
+								This is a web app that tracks tasks. This tracker is used to
+								monitor more complex tasks than to-do lists, but less complex
+								than longer term 'project' like tasks. This project has sign-in
+								security. Tasks will only be displayed if it is related to the
+								user. The user and task information is persisted using a NoSQL
+								database. The displayed task list can be ordered and filtered.
+								Each task can have user created or automated comments.
+							</p>
+							<p>
+								To demo this project, can using in with the following
+								credentials: Login: 1@1.com or 2@2.com or 3@3.com or 4@4.com
+								Pass: 123123 The first 2 log-ins has higher editing privileges
+								(supervisor level), while the last 2 log-ins have lower
+								privileges (worker level). The worker levels have less
+								privileges to edit existing tasks. You can also register and
+								create your own account. Although email verification is not
+								currently implemented, it can be easily added.
+							</p>
+
+							<p>
+								The project demonstrates Kiu's ability to use popular web
+								development tools. The project uses React for the front-end with
+								Bootstrap v4.5 for styling. Firebase services (Authentication,
+								Firestore, and Hosting) provides the back-end services for this
+								development. The repository contains a functions folder that
+								starts to explore using Google Cloud Functions. However, it is
+								not yet integrated into the main production code. The reason not
+								to implement Cloud Function in this project is because Firebase
+								requires the Blaze plan (pay as you go) instead of the Spark
+								plan (free) in order to use Cloud Functions.
+							</p>
+
+							<p>
+								The project is hosted on Google Cloud Hosting. The project
+								webpage and the source code are available here:
+							</p>
+							<div class="btn-container">
+								<a class="btn" href="https://q-story.netlify.app/"
+									>Demo project</a
+								>
+								<a class="icon" href="https://github.com/zkiu/q-story">
+									<i class="fab fa-github-alt"></i>
+								</a>
+							</div>
+						</div>
+					</section>
+
+					<!-- Project 2 -->
+					<section class="project-item">
+						<a href="https://task-tracker-84155.web.app/">
+							<img
+								src="images/task-tracker-snap.PNG"
+								alt="task-tracker screenshot"
+							/>
+						</a>
+
 						<div>
 							<h3>Web App: Task Tracker</h3>
 							<p>
@@ -99,16 +141,12 @@
 								webpage and the source code are available here:
 							</p>
 							<div class="btn-container">
-								<a
-									class="btn"
-									href="https://task-tracker-84155.web.app/"
-									target="_blank"
+								<a class="btn" href="https://task-tracker-84155.web.app/"
 									>Demo project</a
 								>
 								<a
 									class="icon"
 									href="https://github.com/zkiu/Task-Tracker-Firebase"
-									target="_blank"
 								>
 									<i class="fab fa-github-alt"></i>
 								</a>
@@ -116,64 +154,16 @@
 						</div>
 					</section>
 
-					<!-- Project 2 -->
-					<section class="project-item">
-						<img
-							src="images/proj2_Chat_App.PNG"
-							alt="Image of the Chat client App"
-						/>
-						<div class="project-text">
-							<h3>Web App: Chat Client</h3>
-							<p>
-								This is a simple chat app that utilizes the following Node.js
-								modules:
-							</p>
-							<ul>
-								<li>Express.js as the web application framework</li>
-								<li>
-									Socket.io to establish bi-directional communication channel
-									between a client and a server
-								</li>
-								<li>Mongoose to work with NoSQL via MongoBD</li>
-							</ul>
-							<p>
-								The entered form data (name and message) are save on the MongoDB
-								server. Currently, user login is not implemented on this
-								project, but this will be implemented on the main project of
-								this portfolio.
-							</p>
-							<p>
-								This project is hosted on
-								<a href="http://Heroku.com" target="_blank">Heroku.com</a>
-								<br />
-								The project webpage and the source code are available here:
-							</p>
-
-							<div class="btn-container">
-								<a
-									class="btn"
-									href="https://pure-springs-58577.herokuapp.com/"
-									target="_blank"
-									>Demo project</a
-								>
-								<a
-									class="icon"
-									href="https://github.com/zkiu/appChatClient"
-									target="_blank"
-								>
-									<i class="fab fa-github-alt"></i>
-								</a>
-							</div>
-						</div>
-					</section>
 					<!-- Project 2 END -->
 
 					<!-- Project 3 -->
 					<section class="project-item">
-						<img
-							src="images/proj3_Bill_flower_shop.PNG"
-							alt="Image of Bill's Flower Shop landing page"
-						/>
+						<a href="https://zkiu.github.io/flower-shop_sass_and_grid/">
+							<img
+								src="images/proj3_Bill_flower_shop.PNG"
+								alt="Image of Bill's Flower Shop landing page"
+							/>
+						</a>
 						<div class="project-text">
 							<h3>Business Webpage: Bill's Flower Shop</h3>
 							<p>
@@ -203,14 +193,12 @@
 							<div class="btn-container">
 								<a
 									class="btn"
-									href="https://zkiu.github.io/portfolio_sass_and_grid/"
-									target="_blank"
+									href="https://zkiu.github.io/flower-shop_sass_and_grid/"
 									>Demo project</a
 								>
 								<a
 									class="icon"
 									href="https://github.com/zkiu/portfolio_sass_and_grid"
-									target="_blank"
 								>
 									<i class="fab fa-github-alt"></i>
 								</a>
@@ -231,9 +219,7 @@
 						The work experiences below are based on my time as a Project Manager
 						for construction projects. To see my complete work history with
 						details, please look me up on
-						<a
-							href="https://ca.linkedin.com/in/quoc-kiu-l-5ba14894"
-							target="_blank"
+						<a href="https://ca.linkedin.com/in/quoc-kiu-l-5ba14894"
 							>LinkedIn</a
 						>
 						or my
@@ -382,13 +368,9 @@
 				<!-- Social media and contact links -->
 				<ul class="contact-list">
 					<li><a href="mailto:zquoc@yahoo.ca">zquoc@yahoo.ca</a></li>
-					<li><a href="https://github.com/zkiu" target="_blank">GitHub</a></li>
+					<li><a href="https://github.com/zkiu">GitHub</a></li>
 					<li>
-						<a
-							href="https://ca.linkedin.com/in/quoc-kiu-l-5ba14894"
-							target="_blank"
-							>LinkedIn</a
-						>
+						<a href="https://www.linkedin.com/in/devkiu/">LinkedIn</a>
 					</li>
 				</ul>
 			</div>
