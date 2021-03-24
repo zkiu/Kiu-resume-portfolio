@@ -29,14 +29,14 @@ body {
 }
 
 a:link {
-	color: greenyellow;
+	color: rgb(8, 155, 8);
 }
 a:visited {
-	color: greenyellow;
+	color: rgb(98, 138, 46);
 }
 a:hover {
 	text-decoration: none;
-	color: green;
+	color: rgb(1, 54, 1);
 }
 a:active {
 	color: green;
@@ -189,7 +189,7 @@ header h2 {
 /* Contact Info
 ------------------------------------*/
 footer {
-	background: #343434;
+	background: #55518f;
 	color: #f7fff7;
 	text-align: center;
 }
